@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="9" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-15T16:57:43 CST" name="Loan Department" finished-at="2022-11-15T16:57:43 CST" duration-ms="48">
+    <groups>
+      <group name="smoke">
+        <method signature="Day1.demo()[pri:0, instance:Test.Day1@66498326]" name="demo" class="Test.Day1"/>
+        <method signature="Day2.ploan()[pri:0, instance:Test.Day2@4e096385]" name="ploan" class="Test.Day2"/>
+        <method signature="Day3.webLogin()[pri:0, instance:Test.Day3@49912c99]" name="webLogin" class="Test.Day3"/>
+        <method signature="Day4.carWebLogin()[pri:0, instance:Test.Day4@73e22a3d]" name="carWebLogin" class="Test.Day4"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-11-15T16:57:43 CST" name="Personal Loan" finished-at="2022-11-15T16:57:43 CST" duration-ms="48">
+      <class name="Test.Day2">
+        <test-method is-config="true" signature="prerequiste()[pri:0, instance:Test.Day2@4e096385]" started-at="2022-11-15T16:57:43 CST" name="prerequiste" finished-at="2022-11-15T16:57:43 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method signature="ploan()[pri:0, instance:Test.Day2@4e096385]" started-at="2022-11-15T16:57:43 CST" name="ploan" finished-at="2022-11-15T16:57:43 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan -->
+        <test-method is-config="true" signature="lastTest()[pri:0, instance:Test.Day2@4e096385]" started-at="2022-11-15T16:57:43 CST" name="lastTest" finished-at="2022-11-15T16:57:43 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastTest -->
+      </class> <!-- Test.Day2 -->
+      <class name="Test.Day3">
+        <test-method signature="apiLogin()[pri:0, instance:Test.Day3@49912c99]" started-at="2022-11-15T16:57:43 CST" name="apiLogin" finished-at="2022-11-15T16:57:43 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLogin -->
+        <test-method signature="mobileLogin()[pri:0, instance:Test.Day3@49912c99]" started-at="2022-11-15T16:57:43 CST" name="mobileLogin" finished-at="2022-11-15T16:57:43 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLogin -->
+        <test-method signature="webLogin()[pri:0, instance:Test.Day3@49912c99]" started-at="2022-11-15T16:57:43 CST" name="webLogin" finished-at="2022-11-15T16:57:43 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLogin -->
+      </class> <!-- Test.Day3 -->
+      <class name="Test.Day1">
+        <test-method is-config="true" signature="beforeThisDay1class()[pri:0, instance:Test.Day1@66498326]" started-at="2022-11-15T16:57:43 CST" name="beforeThisDay1class" finished-at="2022-11-15T16:57:43 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeThisDay1class -->
+        <test-method signature="demo()[pri:0, instance:Test.Day1@66498326]" started-at="2022-11-15T16:57:43 CST" name="demo" finished-at="2022-11-15T16:57:43 CST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="afterThisDay1class()[pri:0, instance:Test.Day1@66498326]" started-at="2022-11-15T16:57:43 CST" name="afterThisDay1class" finished-at="2022-11-15T16:57:43 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterThisDay1class -->
+      </class> <!-- Test.Day1 -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2022-11-15T16:57:43 CST" name="car Loan" finished-at="2022-11-15T16:57:43 CST" duration-ms="48">
+      <class name="Test.Day3">
+        <test-method is-config="true" signature="beforeSuit()[pri:0, instance:Test.Day3@49912c99]" started-at="2022-11-15T16:57:43 CST" name="beforeSuit" finished-at="2022-11-15T16:57:43 CST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+      </class> <!-- Test.Day3 -->
+      <class name="Test.Day4">
+        <test-method is-config="true" signature="catTestBeforeTest()[pri:0, instance:Test.Day4@73e22a3d]" started-at="2022-11-15T16:57:43 CST" name="catTestBeforeTest" finished-at="2022-11-15T16:57:43 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- catTestBeforeTest -->
+        <test-method is-config="true" signature="beforeEveryCarMethod()[pri:0, instance:Test.Day4@73e22a3d]" started-at="2022-11-15T16:57:43 CST" name="beforeEveryCarMethod" finished-at="2022-11-15T16:57:43 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryCarMethod -->
+        <test-method signature="carApiLogin()[pri:0, instance:Test.Day4@73e22a3d]" started-at="2022-11-15T16:57:43 CST" name="carApiLogin" finished-at="2022-11-15T16:57:43 CST" duration-ms="9" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at Test.Day4.carApiLogin(Day4.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carApiLogin -->
+        <test-method is-config="true" signature="afterEveryCarMethod()[pri:0, instance:Test.Day4@73e22a3d]" started-at="2022-11-15T16:57:43 CST" name="afterEveryCarMethod" finished-at="2022-11-15T16:57:43 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryCarMethod -->
+        <test-method is-config="true" signature="beforeEveryCarMethod()[pri:0, instance:Test.Day4@73e22a3d]" started-at="2022-11-15T16:57:43 CST" name="beforeEveryCarMethod" finished-at="2022-11-15T16:57:43 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryCarMethod -->
+        <test-method signature="carMobileLogin()[pri:0, instance:Test.Day4@73e22a3d]" started-at="2022-11-15T16:57:43 CST" name="carMobileLogin" finished-at="2022-11-15T16:57:43 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carMobileLogin -->
+        <test-method is-config="true" signature="afterEveryCarMethod()[pri:0, instance:Test.Day4@73e22a3d]" started-at="2022-11-15T16:57:43 CST" name="afterEveryCarMethod" finished-at="2022-11-15T16:57:43 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryCarMethod -->
+        <test-method is-config="true" signature="beforeEveryCarMethod()[pri:0, instance:Test.Day4@73e22a3d]" started-at="2022-11-15T16:57:43 CST" name="beforeEveryCarMethod" finished-at="2022-11-15T16:57:43 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEveryCarMethod -->
+        <test-method signature="carWebLogin()[pri:0, instance:Test.Day4@73e22a3d]" started-at="2022-11-15T16:57:43 CST" name="carWebLogin" finished-at="2022-11-15T16:57:43 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carWebLogin -->
+        <test-method is-config="true" signature="afterEveryCarMethod()[pri:0, instance:Test.Day4@73e22a3d]" started-at="2022-11-15T16:57:43 CST" name="afterEveryCarMethod" finished-at="2022-11-15T16:57:43 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryCarMethod -->
+        <test-method is-config="true" signature="afterSuit()[pri:0, instance:Test.Day4@73e22a3d]" started-at="2022-11-15T16:57:43 CST" name="afterSuit" finished-at="2022-11-15T16:57:43 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuit -->
+      </class> <!-- Test.Day4 -->
+    </test> <!-- car Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

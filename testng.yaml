@@ -1,0 +1,7 @@
+name: Loan Department
+configFailurePolicy: skip
+tests:
+  - name: Personal Loan
+  classes:
+    - Test.Day1
+
