@@ -13,9 +13,14 @@ public class Day1 {
 		System.out.println("I will execute before all day1 testcases");
 		
 	}
-	
 	@Test(groups="smoke")
 	public void demo() {
+		System.out.println("welcome to the testing world");
+		
+	}
+	
+	@Test(groups="smoke")
+	public void demoAdd() {
 		System.out.println("welcome to the testing world");
 		
 	}
